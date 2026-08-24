@@ -1,0 +1,16 @@
+﻿Library/
+Temp/
+Logs/
+obj/
+.vs/
+.vscode/
+UserSettings/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+AbramsModelDiagnostics.log
+Packages/manifest.json.broken

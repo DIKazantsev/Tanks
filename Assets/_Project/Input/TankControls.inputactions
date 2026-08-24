@@ -1,0 +1,32 @@
+{
+    "name": "TankControls",
+    "maps": [
+        {
+            "name": "Tank",
+            "id": "d0b7a231-776b-4b4e-bc48-8a04d90f1501",
+            "actions": [
+                { "name": "Move", "type": "Value", "id": "7f704425-970c-4adb-8e35-5c9137b6b60b", "expectedControlType": "Axis" },
+                { "name": "Rotate", "type": "Value", "id": "6aa5e07f-b0d9-46f9-b772-a71388998e06", "expectedControlType": "Axis" },
+                { "name": "Aim", "type": "Value", "id": "e8a4b23b-c23e-49ac-840c-d252d4a15a48", "expectedControlType": "Vector2" },
+                { "name": "Fire", "type": "Button", "id": "5399bc3a-eef0-456e-bd0f-65fe3202c82c", "expectedControlType": "Button" }
+            ],
+            "bindings": [
+                { "name": "", "id": "a5cc3424-556a-44b4-9a78-3af83ed94b8b", "path": "1DAxis", "action": "Move", "isComposite": true },
+                { "name": "Negative", "id": "07f6e6e4-83e0-4f25-b031-b63cbf2eabb7", "path": "<Keyboard>/s", "action": "Move", "isPartOfComposite": true },
+                { "name": "Positive", "id": "cba941a2-b40b-4e8a-b448-2d0692ffb530", "path": "<Keyboard>/w", "action": "Move", "isPartOfComposite": true },
+                { "name": "", "id": "cdb75afc-4202-4a71-b84b-5a37231cef61", "path": "1DAxis", "action": "Move", "isComposite": true },
+                { "name": "Negative", "id": "930312fe-e90d-4242-8b68-171b9f57ce76", "path": "<Keyboard>/downArrow", "action": "Move", "isPartOfComposite": true },
+                { "name": "Positive", "id": "b90e7c5b-12d5-4e2c-86c6-d9a614d4cf42", "path": "<Keyboard>/upArrow", "action": "Move", "isPartOfComposite": true },
+                { "name": "", "id": "4049cc5a-5222-4762-bf0b-096416f4e2e7", "path": "1DAxis", "action": "Rotate", "isComposite": true },
+                { "name": "Negative", "id": "cc800ad2-e55c-4834-b9a3-8db0f799b042", "path": "<Keyboard>/a", "action": "Rotate", "isPartOfComposite": true },
+                { "name": "Positive", "id": "f6debf6f-dd81-47c3-98ac-8c36c5f07068", "path": "<Keyboard>/d", "action": "Rotate", "isPartOfComposite": true },
+                { "name": "", "id": "7e85a339-63aa-40c2-a732-5b4ef4a803d1", "path": "1DAxis", "action": "Rotate", "isComposite": true },
+                { "name": "Negative", "id": "3aeeea2c-b142-46de-9351-e4a4a3a32ca7", "path": "<Keyboard>/leftArrow", "action": "Rotate", "isPartOfComposite": true },
+                { "name": "Positive", "id": "bcb44b37-4569-4b7d-b3e4-6a94ff5ff086", "path": "<Keyboard>/rightArrow", "action": "Rotate", "isPartOfComposite": true },
+                { "name": "", "id": "43af2a40-c49d-4c3d-a9eb-649ca7d67a64", "path": "<Mouse>/position", "action": "Aim" },
+                { "name": "", "id": "d3655bf2-c70d-455c-a6a7-d5576018b6ee", "path": "<Mouse>/leftButton", "action": "Fire" }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
